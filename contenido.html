@@ -1,26 +1,112 @@
 <!doctype html>
-  <html lang="es">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Contido</title>
-      <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-      <header>
-        <nav class="barraNavegacion">
-            <a href="index.html"> Ir a Inicio </a>
-            <a href="contenido.html"> Ir ó Contido </a>
-            <a href="recursos.html"> Ir a Recursos </a>
-            <a href="contacto.html"> Ir a Contacto </a>
-        </nav>
-      </header>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contido</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <nav class="barraNavegacion">
+        <a href="index.html">Ir a Inicio</a>
+        <a href="contenido.html">Ir ó Contido</a>
+        <a href="recursos.html">Ir a Recursos</a>
+        <a href="contacto.html">Ir a Contacto</a>
+      </nav>
+    </header>
     <main>
-  
+      <section class="contenidoExplicacions">
+        <h2>Tipos principais das topoloxías de redes, con breves explicacións de cada unha.</h2>
+
+        <h4>Topoloxía de tipo <b>Bus</b></h4>
+        //todo <img src="images/bus.png" alt="Imaxe topoloxía Bus" width="300"/>
+        <p>
+          Todos os nodos conéctanse ó mesmo bus troncal, trátase dun tipo de rede
+          que é barato de montar pero moi complicado de ampliar.
+        </p>
+
+        <h4>Topoloxía de tipo <b>Anelo</b></h4>
+        //todo <img src="images/bus.png" alt="Imaxe topoloxía Bus" width="300"/>
+        <p>
+          Os nodos dispóñense en forma de círculo, de tal xeito que a información
+          é enviada nunha única dirección.
+        </p>
+
+        <h4>Topoloxía de tipo <b>Estrela</b></h4>
+        //todo <img src="images/bus.png" alt="Imaxe topoloxía Bus" width="300"/>
+        <p>
+          Todos os nodos están interconectados mediante un nodo central, este nodo
+          central adoita ser un <i>switch</i>. É unha estrutura bastante ríxida e
+          non é a máis costosa, polo que é a preferida para redes de área local.
+        </p>
+
+        <h4>Topoloxía de tipo <b>Malla</b></h4>
+        //todo <img src="images/bus.png" alt="Esquema topoloxía Bus" width="300"/>
+        <p>
+          Os nodos están conectados entre eles, dando como resultado unha excelente
+          tolerancia a erros, pois os puntos críticos son poucos, pero é máis
+          costosa de instalar.
+        </p>
+
+        <h4>Topoloxía de tipo <b>Xerárquica</b></h4>
+        //todo <img src="images/bus.png" alt="Imaxe topoloxía Bus" width="300"/>
+        <p>
+          Un nodo pai vai ir conectándose sucesivamente a máis nodos fillos, como
+          se estiveran anidando.
+        </p>
+
+        <h4>Topoloxía de tipo <b>Mixta</b></h4>
+        <img src="images/bus.png" alt="Imaxe topoloxía Bus" width="300"/>
+        <p>
+          Trátase dunha mestura entre tódalas anteriores, e un tipo de rede moi
+          versátil.
+        </p>
+      </section>
+      
+      <section class="contenidoTaboa">
+        <h2>Táboa comparativa entre tipoloxías</h2>
+        <table>
+          <tr>
+            <th>Nome da Topoloxía</th>
+            <th>Pros</th>
+            <th>Contras</th>
+          </tr>
+          <tr>
+            <td>Bus</td>
+            <td>Sinxela e económica</td>
+            <td>Moi vulnerable a erros</td>
+          </tr>
+          <tr>
+            <td>Anelo</td>
+            <td>Organizada e lineal</td>
+            <td>Un erro nunha conexión inutiliza a rede</td>
+          </tr>
+          <tr>
+            <td>Estrela</td>
+            <td>Fácil de manter</td>
+            <td>Dependencia total do nodo central</td>
+          </tr>
+          <tr>
+            <td>Malla</td>
+            <td>Moi fiable</td>
+            <td>Moi costosa</td>
+          </tr>
+          <tr>
+            <td>Xerárquica</td>
+            <td>Estilo de organización moi boa</td>
+            <td>Dependencia do nodo pai principal</td>
+          </tr>
+          <tr>
+            <td>Mixta</td>
+            <td>Versátil, moi difícil de vulnerar</td>
+            <td>Extremadamente costosa</td>
+          </tr>
+        </table>
+      </section>
     </main>
-      <footer>
-      </footer>
-    </body>
-  </html>
-
-
+    
+    <footer>
+    </footer>
+  </body>
+</html>
